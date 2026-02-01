@@ -6,90 +6,96 @@ lang: fr
 en_url: /
 ---
 
-<!-- 🔥 Hero + Cards (ton ancien contenu du layout home.html) -->
+<!-- 🔥 Hero -->
 <section class="hero">
   <div class="hero-inner">
     <p class="hero-kicker">
-      IA · DevOps · Transformation numérique
+      IA · Automatisation · Transformation numérique
     </p>
 
     <h1 class="hero-title">
-      Construire le <span>Business 2.0</span> avec la technologie
+      Construire le <span>Business 2.0</span> — version PME
     </h1>
 
     <p class="hero-subtitle">
-      Je suis J.P. Henri – analyste TI, consultant IA et créateur de contenu basé à Gatineau.
-      J'aide les PME à moderniser leurs opérations avec l’IA, l’automatisation et le bon sens.
+      Je suis J.P. Henri — analyste TI et intégrateur IA basé à Gatineau.
+      J’aide les petites entreprises à gagner du temps, structurer leurs opérations
+      et produire plus de marketing grâce à des systèmes simples (pas des usines à gaz).
     </p>
 
     <div class="hero-actions">
-      <a href="#business" class="btn btn-primary">Découvrir Business 2.0</a>
-      <a href="#contact" class="btn btn-ghost">Parler de votre projet</a>
+      <a href="#business" class="btn btn-primary">Voir l’approche</a>
+      <a href="#contact" class="btn btn-ghost">Réserver un appel</a>
     </div>
   </div>
 </section>
 
+<!-- 🔥 Cards -->
 <section class="cards-grid">
 
   <article class="card">
     <h2>Business 2.0 pour PME</h2>
     <p>
-      Diagnostic numérique, automatisation des tâches répétitives,
-      IA générative et optimisation des processus pour les petites entreprises.
+      Audit rapide, optimisation de processus, automatisation des tâches répétitives,
+      et intégration d’IA (contenu, emails, documentation, opérations).
     </p>
-    <a href="#business" class="card-link">Voir l’approche</a>
+    <a href="#business" class="card-link">Découvrir l’approche →</a>
   </article>
 
   <article class="card">
-  <h2>Automatisation des réseaux sociaux</h2>
-  <p>Automatisation des vidéos TikTok, YouTube Shorts, Facebook/Instagram Reels et meilleures pratiques de conformité.</p>
-  <a href="#projects" class="card-link">Voir les sujets</a>
-</article>
-
+    <h2>Automatisation du marketing</h2>
+    <p>
+      Système IA pour produire plus de contenu (blog, réseaux sociaux, scripts vidéo),
+      sans y passer vos soirées — et sans perdre votre ton.
+    </p>
+    <a href="#blog" class="card-link">Voir des exemples →</a>
+  </article>
 
   <article class="card">
-    <h2>Projet</h2>
+    <h2>Projets concrets</h2>
     <p>
-      Mes projets réunissent transformation numérique pour PME,
-      sites web rapides sur GitHub Pages, workflows IA,
-      expérimentations TI et optimisation Business 2.0 appliquée au terrain.
+      Projets appliqués sur le terrain : e-commerce, SEO local, sites rapides,
+      workflows IA, documentation et automatisations légères.
     </p>
-    <a href="#projects" class="card-link">Voir le projet</a>
+    <a href="#projects" class="card-link">Voir les projets →</a>
   </article>
 
 </section>
 
-<!-- 🔥 Ton contenu one-page actuel -->
+<!-- Business -->
 <section id="business" class="section">
   <h2>Business 2.0</h2>
   <p class="section-lead">
-    Business 2.0, c’est ma façon d’utiliser la technologie pour aider des petites entreprises réelles,
-    sans usines à gaz ni buzzwords inutiles.
+    Business 2.0, c’est une approche simple : clarifier, alléger, automatiser, puis mesurer.
+    L’objectif : gagner du temps, réduire les erreurs, et mieux servir vos clients.
   </p>
+
   <p>
-    La plupart des PME n’ont pas besoin d’un nouveau “gros système”. Elles ont besoin de
-    <strong>clarifier leurs processus</strong>, de réduire le travail répétitif et de mieux voir
-    ce qui se passe dans leur entreprise. On part donc de la réalité : atelier, comptoir,
-    courriels, fichiers Excel, conversation avec les clients.
+    La majorité des PME n’ont pas besoin d’un “gros système”.
+    Elles ont besoin de visibilité sur ce qui se passe réellement : courriels, Excel,
+    commandes, demandes clients, tâches répétitives… et des petites améliorations qui
+    font une grande différence.
   </p>
+
   <ul>
     <li><strong>Comprendre le terrain</strong> : comment le travail se fait aujourd’hui, pas en théorie.</li>
-    <li><strong>Alléger avant d’ajouter</strong> : enlever la friction et le bruit avant d’ajouter de nouveaux outils.</li>
-    <li><strong>Automatiser là où ça compte</strong> : seulement si ça sauve réellement du temps ou diminue le risque.</li>
-    <li><strong>Utiliser l’IA comme assistant</strong> : pour le contenu, la doc, les décisions, pas pour remplacer les humains.</li>
+    <li><strong>Alléger avant d’ajouter</strong> : enlever la friction avant d’ajouter des outils.</li>
+    <li><strong>Automatiser ce qui revient souvent</strong> : seulement si ça sauve du temps ou diminue le risque.</li>
+    <li><strong>Utiliser l’IA comme assistant</strong> : contenu, documentation, décisions — pas pour “remplacer du monde”.</li>
     <li><strong>Mesurer l’impact</strong> : temps gagné, erreurs réduites, clients mieux servis.</li>
   </ul>
+
   <p>
-    Tout ce que je teste finit tôt ou tard dans un projet concret — souvent chez des commerces locaux
-    comme ceux présentés ci-dessous.
+    Si vous êtes à Gatineau/Ottawa, on peut commencer par un appel rapide :
+    je vous pose 10 questions, et je vous propose un plan clair.
   </p>
 </section>
 
-**
+<!-- Projects -->
 <section id="projects" class="section">
   <h2>Projets</h2>
   <p class="section-lead">
-    Quelques projets concrets où j’applique Business 2.0, TI, web et IA.
+    Quelques projets concrets où j’applique Business 2.0, web, IA et automatisation.
   </p>
 
   <section class="projects-grid">
@@ -100,7 +106,9 @@ en_url: /
         <h3 class="project-card-title"><a href="https://chezgerry1958.com">Chez Gerry 1958</a></h3>
         <p class="project-card-meta">Cordonnerie haut de gamme · Gatineau</p>
       </div>
-      <p class="project-card-desc">Site web, SEO, contenu avant/après et automatisation légère.</p>
+      <p class="project-card-desc">
+        SEO, contenu avant/après, optimisation Shopify, automatisations légères et structuration du contenu.
+      </p>
     </article>
 
     <article class="project-card">
@@ -109,7 +117,9 @@ en_url: /
         <h3 class="project-card-title"><a href="https://chucks-casse-croute.com">Chuck’s Casse-Croute</a></h3>
         <p class="project-card-meta">Vitrine légère · GitHub Pages</p>
       </div>
-      <p class="project-card-desc">Site rapide, simple, sans CMS pour un casse-croûte local.</p>
+      <p class="project-card-desc">
+        Site rapide, simple, sans CMS, pensé mobile et local.
+      </p>
     </article>
 
     <article class="project-card">
@@ -118,7 +128,9 @@ en_url: /
         <h3 class="project-card-title"><a href="https://web.archive.org/...">Pronatureqc.com (2015–2018)</a></h3>
         <p class="project-card-meta">Boutique en ligne · Archive</p>
       </div>
-      <p class="project-card-desc">Catalogue massif, SEO, paiement sécurisé.</p>
+      <p class="project-card-desc">
+        Catalogue, SEO, paiements, optimisation de parcours d’achat.
+      </p>
     </article>
 
     <article class="project-card">
@@ -127,12 +139,15 @@ en_url: /
         <h3 class="project-card-title"><a href="https://web.archive.org/...">Assystech SENC</a></h3>
         <p class="project-card-meta">Dév. Web · Infra</p>
       </div>
-      <p class="project-card-desc">Support et optimisation TI pour PME.</p>
+      <p class="project-card-desc">
+        Support et optimisation TI pour PME.
+      </p>
     </article>
 
   </section>
-</section>**
+</section>
 
+<!-- Blog -->
 <section id="blog" class="section">
   <h2>Blog</h2>
   <p class="section-lead">Derniers articles en français.</p>
@@ -151,22 +166,23 @@ en_url: /
   <p class="section-more"><a href="/fr/blog/">Voir tous les articles →</a></p>
 </section>
 
+<!-- Contact -->
 <section id="contact" class="section section-contact">
   <h2>Contact</h2>
   <p class="section-lead">
-    Vous avez une idée ou un projet, mais vous ne savez pas par où commencer ?
+    Vous avez une idée, mais vous ne savez pas par où commencer ?
   </p>
+
   <p>
-    Je m’intéresse particulièrement aux petites entreprises, aux projets locaux et aux équipes
-    qui veulent moderniser leurs opérations sans perdre leur identité. On peut commencer par
-    une simple discussion pour clarifier votre contexte.
+    On peut démarrer simple : une discussion de 20–30 minutes pour clarifier
+    votre contexte, vos blocages, et où l’IA/automatisation peut réellement aider.
   </p>
+
   <ul>
     <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/jphenriIT/">LinkedIn</a></li>
   </ul>
+
   <p>
-    Vous n’avez pas besoin d’un cahier de charges complet. Quelques lignes sur qui vous êtes,
-    ce que vous faites et ce qui bloque en ce moment suffisent pour démarrer.
+    Envoyez-moi 3 lignes : qui vous êtes, ce que vous faites, et ce qui vous ralentit en ce moment.
   </p>
 </section>
-
