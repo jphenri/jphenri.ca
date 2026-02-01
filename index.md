@@ -6,90 +6,95 @@ lang: en
 fr_url: /fr/
 ---
 
-<!-- 🔥 Hero + Cards (original home.html content) -->
+<!-- 🔥 Hero -->
 <section class="hero">
   <div class="hero-inner">
-    <p class="hero-kicker">AI · DevOps · Digital Transformation</p>
+    <p class="hero-kicker">AI · Automation · Digital Transformation</p>
 
     <h1 class="hero-title">
-      Building <span>Business 2.0</span> with technology
+      Building <span>Business 2.0</span> — for real-world small businesses
     </h1>
 
     <p class="hero-subtitle">
-      I’m J.P. Henri – IT analyst, AI consultant and content creator based in Gatineau.
-      I help small businesses modernize with AI, automation and practical strategy.
+      I’m J.P. Henri — IT analyst and AI systems consultant based in Gatineau.
+      I help small businesses save time, modernize operations, and produce more marketing
+      using practical AI and automation (without unnecessary complexity).
     </p>
 
     <div class="hero-actions">
-      <a href="#business" class="btn btn-primary">Explore Business 2.0</a>
-      <a href="#contact" class="btn btn-ghost">Talk about your project</a>
+      <a href="#business" class="btn btn-primary">Explore the approach</a>
+      <a href="#contact" class="btn btn-ghost">Start a conversation</a>
     </div>
   </div>
 </section>
 
+<!-- 🔥 Cards -->
 <section class="cards-grid">
 
   <article class="card">
     <h2>Business 2.0 for SMEs</h2>
-    <p>Digital diagnostics, generative AI and process optimization.</p>
-    <a href="#business" class="card-link">See the approach</a>
+    <p>Digital diagnostics, workflow simplification, generative AI and process optimization.</p>
+    <a href="#business" class="card-link">See the approach →</a>
   </article>
 
   <article class="card">
-    <h2>Social media automation</h2>
-    <p>Tiktok, Youtube shorts, Facebook/Instagram reel automation and compliance best practices.</p>
-    <a href="#projects" class="card-link">View topics</a>
+    <h2>Marketing & Content Automation</h2>
+    <p>AI systems to help you produce blog posts, social content and video scripts — without burning out.</p>
+    <a href="#blog" class="card-link">See examples →</a>
   </article>
 
   <article class="card">
-    <h2>Project</h2>
+    <h2>Applied Projects</h2>
     <p>
-      My projects combine small business digital transformation,
-      fast GitHub Pages websites, AI workflows and real-world experimentation.
+      Real small-business transformation: fast websites, AI workflows,
+      SEO structure and practical digital systems.
     </p>
-    <a href="#projects" class="card-link">See the project</a>
+    <a href="#projects" class="card-link">View projects →</a>
   </article>
 
 </section>
 
-<!-- 🔥 Main one-page content -->
+<!-- 🔥 Business 2.0 -->
 <section id="business" class="section">
   <h2>Business 2.0</h2>
   <p class="section-lead">
-    Business 2.0 is my practical framework for using technology in a realistic, simple and sustainable way
-    for small businesses.
+    Business 2.0 is my practical framework for using technology in a realistic,
+    simple and sustainable way for small businesses.
   </p>
+
   <p>
-    Most small businesses don’t need a dozen new tools — they need <strong>clarity</strong>, less manual work
-    and better visibility on what really matters. My work starts from what already exists in the shop,
-    the inbox, the spreadsheets and the conversations with clients, then adds just enough structure,
-    automation and AI to make a difference.
+    Most small businesses don’t need a dozen new tools — they need <strong>clarity</strong>,
+    less repetitive work, and better visibility on what truly matters. My work starts from
+    what already exists: the shop floor, the inbox, spreadsheets, and customer conversations.
+    Then we add just enough structure, automation and AI to create measurable improvement.
   </p>
+
   <ul>
-    <li><strong>Understand the reality</strong>: how work actually flows today (not how it “should” work).</li>
-    <li><strong>Simplify first</strong>: remove friction and noise before adding new systems.</li>
+    <li><strong>Understand reality</strong>: how work actually flows today (not how it “should” work).</li>
+    <li><strong>Simplify first</strong>: remove friction before adding new systems.</li>
     <li><strong>Add targeted automation</strong>: only where it saves real time or reduces risk.</li>
-    <li><strong>Use AI as an assistant</strong>: to help with content, documentation and decision-making, not to replace people.</li>
-    <li><strong>Measure the impact</strong>: time saved, fewer errors, better customer experience.</li>
+    <li><strong>Use AI as an assistant</strong>: for content, documentation and decision support — not to replace people.</li>
+    <li><strong>Measure impact</strong>: time saved, fewer errors, better customer experience.</li>
   </ul>
+
   <p>
-    Everything I test in my lab eventually ends up applied in real projects with real businesses —
+    Everything I test eventually gets applied in real projects with real businesses —
     like the ones below.
   </p>
 </section>
 
-
+<!-- 🔥 Projects -->
 <section id="projects" class="section">
   <h2>Projects</h2>
   <p class="section-lead">
-    Examples of applied IT, AI and Business 2.0 — always tied to real businesses and clear outcomes.
+    Examples of applied IT, AI and Business 2.0 — always tied to real businesses and concrete outcomes.
   </p>
 
   <section class="projects-grid">
 
     <article class="project-card">
       <div class="project-card-header">
-        <span class="project-badge">Business 2.0 · SMB</span>
+        <span class="project-badge">Business 2.0 · Local SMB</span>
         <h3 class="project-card-title">
           <a href="https://chezgerry1958.com" target="_blank">Chez Gerry 1958</a>
         </h3>
@@ -97,12 +102,11 @@ fr_url: /fr/
       </div>
       <p class="project-card-desc">
         Long-term digital transformation for a high-end cobbler: website, clear service catalog,
-        local SEO, content that shows real before/after work, and backend processes that make it
-        easier to handle mail-in repairs.
+        local SEO, before/after content, and backend workflows that simplify mail-in repairs.
       </p>
       <p class="project-card-desc">
-        This project is my main sandbox for testing how far you can push Business 2.0 inside a
-        single local shop without losing its personality.
+        This is my main sandbox for testing how far Business 2.0 can go inside a single local shop
+        without losing its personality.
       </p>
     </article>
 
@@ -112,12 +116,11 @@ fr_url: /fr/
         <h3 class="project-card-title">
           <a href="https://chucks-casse-croute.com" target="_blank">Chuck’s Casse-Croute</a>
         </h3>
-        <p class="project-card-meta">Lightweight restaurant site · GitHub Pages</p>
+        <p class="project-card-meta">Lightweight restaurant website · GitHub Pages</p>
       </div>
       <p class="project-card-desc">
-        A fast, minimal and low-maintenance website for a local casse-croûte. Built entirely
-        with static files on GitHub Pages, it’s an example of how a very small business can
-        still look professional online without a heavy CMS.
+        Fast, minimal and low-maintenance website for a local restaurant.
+        Demonstrates how a small business can look professional online without a heavy CMS.
       </p>
     </article>
 
@@ -132,15 +135,14 @@ fr_url: /fr/
         <p class="project-card-meta">Full online store · Archived</p>
       </div>
       <p class="project-card-desc">
-        Large-catalog e-commerce site for outdoor and hunting products. Work included navigation
-        structure, product content, search optimization and performance, all while staying aligned
-        with the brand’s identity.
+        Large-catalog e-commerce project: navigation, product content, SEO structure and performance,
+        aligned with brand identity.
       </p>
     </article>
 
     <article class="project-card">
       <div class="project-card-header">
-        <span class="project-badge">IT consulting</span>
+        <span class="project-badge">IT Consulting</span>
         <h3 class="project-card-title">
           <a href="https://web.archive.org/web/20181229095915/https://assystech.com/" target="_blank">
             Assystech SENC (2015–2019)
@@ -149,20 +151,19 @@ fr_url: /fr/
         <p class="project-card-meta">Consulting · Web development</p>
       </div>
       <p class="project-card-desc">
-        Co-founded IT consulting and web development company. I worked with small and
-        medium-sized businesses on infrastructure decisions, custom websites and ongoing
-        technical support.
+        Co-founded IT consulting and web development firm working with SMEs on infrastructure,
+        custom websites and ongoing support.
       </p>
       <p class="project-card-desc">
-        The experience shaped how I now approach Business 2.0: long-term relationships,
-        clear language and solutions that match each client’s real constraints.
+        This experience shaped my Business 2.0 philosophy: long-term relationships, plain language,
+        and solutions aligned with real constraints.
       </p>
     </article>
 
   </section>
 </section>
 
-
+<!-- 🔥 Blog -->
 <section id="blog" class="section">
   <h2>Blog</h2>
   <p class="section-lead">Recent English posts.</p>
@@ -181,22 +182,20 @@ fr_url: /fr/
   <p class="section-more"><a href="/blog/">View all posts →</a></p>
 </section>
 
+<!-- 🔥 Contact -->
 <section id="contact" class="section section-contact">
   <h2>Contact</h2>
   <p class="section-lead">
-    If you have a project or idea and you’re not sure where to start, we can begin with a simple conversation.
+    If you have an idea or project and you’re not sure where to start, we can begin with a simple conversation.
   </p>
   <p>
-    I’m especially interested in small businesses, local projects and teams who want to modernize
-    without losing their identity. Whether it’s a website, a workflow, documentation or an AI use case,
-    the first step is understanding your reality.
+    I focus on small businesses, local projects and teams who want to modernize without losing their identity.
+    Whether it’s a website, workflow, documentation or an AI use case, the first step is understanding your reality.
   </p>
   <ul>
     <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/jphenriIT/">LinkedIn</a></li>
   </ul>
   <p>
-    You don’t need a full brief. A few lines about who you are, what you do and what’s blocking you
-    is more than enough to start.
+    You don’t need a full brief. A few lines about who you are, what you do and what’s slowing you down is enough to start.
   </p>
 </section>
-
