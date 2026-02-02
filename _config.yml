@@ -20,7 +20,7 @@ markdown: kramdown
 permalink: /:categories/:title/
 
 # No theme: we use our own layouts
-theme: null
+# theme: null
 
 collections:
   posts:
