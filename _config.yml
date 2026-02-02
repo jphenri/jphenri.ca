@@ -62,6 +62,6 @@ social:
   linkedin: "https://www.linkedin.com/in/jphenri"
 
 # Plugins
-  plugins:
+plugins:
   - jekyll-sitemap
 
