@@ -60,3 +60,8 @@ nav:
 social:
   github: "https://github.com/jphenri"
   linkedin: "https://www.linkedin.com/in/jphenri"
+
+# Plugins
+  plugins:
+  - jekyll-sitemap
+
