@@ -179,7 +179,7 @@ fr_url: /
     {% endfor %}
   </div>
 
-  <p class="section-more"><a href="/blog/">View all posts →</a></p>
+  <p class="section-more"><a href="/en/blog/">View all posts →</a></p>
 </section>
 
 <!-- 🔥 Contact -->

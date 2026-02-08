@@ -40,6 +40,8 @@ defaults:
       path: "fr"
     values:
       lang: "fr"
+      noindex: true
+      sitemap: false
 
 # Navigation labels (used in templates if needed)
 nav:

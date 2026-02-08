@@ -2,8 +2,10 @@
 <html lang="{{ page.lang | default: site.lang }}">
   <head>
     {% assign current_lang = page.lang | default: site.lang %}
+    {% assign page_source_path = page.path | default: '' %}
+    {% assign page_source_prefix = page_source_path | slice: 0, 3 %}
     {% assign canonical_path = page.canonical_url | default: page.url %}
-    {% if current_lang == 'fr' and page.canonical_url == nil %}
+    {% if current_lang == 'fr' and page.canonical_url == nil and page_source_prefix == 'fr/' %}
       {% if canonical_path == '/fr/' %}
         {% assign canonical_path = '/' %}
       {% elsif canonical_path contains '/fr/' %}
@@ -29,6 +31,9 @@
     {% else %}
     <meta name="description" content="{{ site.description }}">
     {% endif %}
+    {% if page.noindex %}
+    <meta name="robots" content="noindex,follow">
+    {% endif %}
 
     <!-- Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}">
@@ -48,7 +53,6 @@
     <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/custom-style.css' | relative_url }}">
   </head>
   <body class="site">
     {% include header.html %}

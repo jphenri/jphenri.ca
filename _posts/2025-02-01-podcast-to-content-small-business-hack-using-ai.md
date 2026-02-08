@@ -1,4 +1,16 @@
-# Turning Podcasts into Shorts, Reels, and Blogs: A Small Business Hack
+---
+layout: post
+title: "Turning Podcasts into Shorts, Reels, and Blogs: A Small Business Hack"
+lang: en
+summary: "How to turn one long podcast conversation into short videos and blog posts using transcription and AI."
+tags:
+  - ai
+  - content
+  - smb
+  - workflow
+permalink: /podcast-to-content-small-business-hack-using-ai/
+fr_url: /fr/transformer-un-podcast-en-contenu/
+---
 
 Hey folks! If you’re like me, you love finding ways to squeeze more juice out of your efforts—especially when you’re running a small business. One trick I’ve been playing with is taking a single 45-60 minute podcast chat and turning it into a goldmine of content: shorts, reels, and even blog posts. And here’s the kicker—I use YouTube transcriptions and AI tools to make it happen fast. Let me walk you through it step-by-step.
 

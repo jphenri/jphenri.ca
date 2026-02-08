@@ -1,4 +1,14 @@
-# Boost Your Website's Visibility with Schema Markup: A Step-by-Step Guide
+---
+layout: post
+title: "Boost Your Website's Visibility with Schema Markup: A Step-by-Step Guide"
+lang: en
+summary: "A practical schema markup walkthrough to improve search understanding and rich results."
+tags:
+  - schema
+  - webdev
+permalink: /boost-your-website-visibility-with-schema-markup/
+fr_url: /fr/schema-markup-visibilite-site/
+---
 
 In today's digital landscape, getting your website noticed by search engines is crucial. One powerful way to enhance your site's visibility is by implementing schema markup. Schema markup is code that you add to your website to help search engines understand your content more effectively. This can lead to richer search results and improved SEO.
 

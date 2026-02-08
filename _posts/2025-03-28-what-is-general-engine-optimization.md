@@ -1,4 +1,15 @@
-# What’s GEO? A Simple Take on General Engine Optimization
+---
+layout: post
+title: "What’s GEO? A Simple Take on General Engine Optimization"
+lang: en
+summary: "A practical overview of General Engine Optimization and how it combines AI, search, and social distribution."
+tags:
+  - geo
+  - content
+  - smb
+permalink: /what-is-general-engine-optimization/
+fr_url: /fr/general-engine-optimization-geo/
+---
 
 Hey there! If you’ve been digging into digital strategies like I have, you’ve probably heard of SEO, SEA, and SMO. But let me tell you about something I’ve been cooking up: **GEO**, or **General Engine Optimization**. It’s my way of leveling up small business success online, and it’s pretty straightforward once you break it down.
 
