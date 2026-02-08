@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Home Lab"
-subtitle: "Servers, gaming, AI and experiments"
+subtitle: "Servers, gaming, IA et expérimentation"
 nav_key: homelab
-lang: en
-fr_url: /fr/home-lab/
+lang: fr
+en_url: /en/home-lab/
 ---
 
-Short intro to your home lab, hardware and the types of experiments you run.
+Petit aperçu du lab, du matériel et des tests que tu fais.

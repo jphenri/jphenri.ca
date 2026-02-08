@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang }}">
   <head>
+    {% assign current_lang = page.lang | default: site.lang %}
+    {% assign canonical_path = page.canonical_url | default: page.url %}
+    {% if current_lang == 'fr' and page.canonical_url == nil %}
+      {% if canonical_path == '/fr/' %}
+        {% assign canonical_path = '/' %}
+      {% elsif canonical_path contains '/fr/' %}
+        {% assign canonical_path = canonical_path | replace_first: '/fr', '' %}
+      {% endif %}
+    {% endif %}
+
+    {% assign fr_alt = page.fr_url %}
+    {% assign en_alt = page.en_url %}
+    {% if current_lang == 'fr' %}
+      {% assign fr_alt = canonical_path %}
+    {% else %}
+      {% assign en_alt = page.url %}
+    {% endif %}
+
     <meta charset="utf-8">
     <title>
       {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
@@ -15,10 +33,22 @@
     <!-- Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description }}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:url" content="{{ canonical_path | absolute_url }}">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="{% if current_lang == 'fr' %}fr_CA{% else %}en_CA{% endif %}">
+    <meta property="og:locale:alternate" content="{% if current_lang == 'fr' %}en_CA{% else %}fr_CA{% endif %}">
+
+    <link rel="canonical" href="{{ canonical_path | absolute_url }}">
+    {% if fr_alt %}
+    <link rel="alternate" hreflang="fr-CA" href="{{ fr_alt | absolute_url }}">
+    {% endif %}
+    {% if en_alt %}
+    <link rel="alternate" hreflang="en-CA" href="{{ en_alt | absolute_url }}">
+    {% endif %}
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom-style.css' | relative_url }}">
   </head>
   <body class="site">
     {% include header.html %}

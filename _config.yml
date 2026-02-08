@@ -4,7 +4,7 @@ url: "https://jphenri.ca"
 baseurl: "" # important for custom domain
 
 # Default language
-lang: "en"
+lang: "fr"
 
 # Supported languages
 languages:
@@ -31,6 +31,10 @@ defaults:
       path: ""
     values:
       layout: page
+      lang: "fr"
+  - scope:
+      path: "en"
+    values:
       lang: "en"
   - scope:
       path: "fr"
@@ -64,4 +68,3 @@ social:
 # Plugins
 plugins:
   - jekyll-sitemap
-

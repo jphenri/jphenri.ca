@@ -3,7 +3,7 @@ layout: home
 title: "Accueil"
 nav_key: home
 lang: fr
-en_url: /
+en_url: /en/
 ---
 
 <!-- 🔥 Hero -->

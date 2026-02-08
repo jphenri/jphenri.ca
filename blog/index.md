@@ -1,46 +1,45 @@
 ---
 layout: page
 title: "Blog"
-subtitle: "Notes, tests and write-ups"
+subtitle: "Notes, tests et comptes rendus"
 nav_key: blog
-lang: en
-fr_url: /fr/blog/
+lang: fr
+en_url: /en/blog/
 ---
 
 <div class="blog-banner blog-header-animated">
 
-<h2>📝 Welcome to the Blog (EN)</h2>
+<h2>📝 Bienvenue sur le Blog (FR)</h2>
 
 <p>
-Here I share notes, experiments and lessons learned around:
+Ici, je partage mes analyses, expériences et découvertes autour de :
 </p>
 
 <ul>
-  <li><strong>Applied AI</strong> (for small businesses, automation, practical tools)</li>
-  <li><strong>DevOps / IT</strong> (Intune, Linux, security)</li>
-  <li><strong>Home Lab</strong> (lab tests, Plex, gaming, distros)</li>
-  <li><strong>Business 2.0</strong> (strategy, digital transformation)</li>
+  <li><strong>IA appliquée</strong> (PME, automatisation, outils pratiques)</li>
+  <li><strong>DevOps / TI</strong> (Intune, Linux, sécurité)</li>
+  <li><strong>Home Lab</strong> (tests, Plex, gaming, distros)</li>
+  <li><strong>Business 2.0</strong> (stratégie, transformation numérique)</li>
 </ul>
 
 <p>
-Everything here is based on <strong>real-world work and lab experiments</strong> – not theory.
+Chaque article est basé sur <strong>du réel, du terrain</strong> – ce que j'apprends dans mes projets, dans mon lab et dans mon travail.
 </p>
 
 </div>
 
-
 <section class="latest-posts">
-  <h2>Latest posts</h2>
+  <h2>Derniers articles</h2>
 
-  {% assign posts_en = site.posts | where: "lang", "en" | sort: "date" | reverse %}
+  {% assign posts_fr = site.posts | where: "lang", "fr" | sort: "date" | reverse %}
 
-  {% if posts_en.size == 0 %}
+  {% if posts_fr.size == 0 %}
     <p class="latest-posts-empty">
-      No English posts yet. First one is coming soon.
+      Aucun article en français pour le moment. Le premier arrive bientôt.
     </p>
   {% else %}
     <div class="latest-posts-grid">
-      {% for post in posts_en limit:5 %}
+      {% for post in posts_fr limit:5 %}
       <article class="post-card">
         <h3>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -54,7 +53,7 @@ Everything here is based on <strong>real-world work and lab experiments</strong>
           </p>
         {% endif %}
         <a class="post-card-link" href="{{ post.url | relative_url }}">
-          Read more →
+          Lire la suite →
         </a>
       </article>
       {% endfor %}
@@ -64,3 +63,9 @@ Everything here is based on <strong>real-world work and lab experiments</strong>
 
 ---
 
+## Version anglaise
+
+→ Pour lire le blog anglais, rendez-vous ici :  
+**[Blog (EN)](/en/blog/)**
+
+---

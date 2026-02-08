@@ -4,7 +4,7 @@ title: "Home Lab"
 subtitle: "Servers, gaming, IA et expérimentation"
 nav_key: homelab
 lang: fr
-en_url: /home-lab/
+en_url: /en/home-lab/
 ---
 
 Petit aperçu du lab, du matériel et des tests que tu fais.

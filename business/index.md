@@ -1,34 +1,34 @@
 ---
 layout: page
 title: "Business 2.0"
-subtitle: "AI + automation to upgrade small businesses"
+subtitle: "IA + automatisation au service des petites entreprises"
 nav_key: business
-lang: en
-fr_url: /fr/business/
+lang: fr
+en_url: /en/business/
 ---
 
-## What is Business 2.0?
+## C’est quoi Business 2.0 ?
 
-Business 2.0 is my way of describing a small business that:
+Business 2.0, c’est ma façon de décrire une PME qui :
 
-- Uses AI and automation intelligently (not just hype)
-- Has clean, simple processes instead of chaos
-- Owns its data and uses it to make decisions
-- Keeps the human, local touch at the center
+- Utilise l’IA et l’automatisation de façon intelligente (pas juste pour suivre la mode)
+- Simplifie ses processus au lieu d’ajouter des couches de complexité
+- Possède ses données et les utilise pour décider
+- Garde le contact humain et local au centre
 
-I mix three worlds:
+Je combine trois mondes :
 
-1. **Enterprise IT & security** – endpoint management, patching, compliance  
-2. **SMB reality** – limited budget, real constraints, need for ROI  
-3. **AI tools** – language models, automation, content, analytics
+1. **TI et sécurité d’entreprise** – gestion poste de travail, correctifs, conformité  
+2. **Réalité des PME** – budget limité, contraintes réelles, besoin de ROI  
+3. **Outils IA** – modèles de langage, automatisation, contenu, analytique
 
 ---
 
-## How I can help
+## Comment je peux aider
 
-- Map your current tools and workflows
-- Identify **3–5 quick wins** with AI / automation
-- Help you create **repeatable workflows** you can maintain
-- Connect this with your **web, SEO and content** (like Chez Gerry 1958)
+- Cartographier vos outils et vos processus actuels  
+- Identifier **3 à 5 gains rapides** avec l’IA / l’automatisation  
+- Créer des **flux de travail réutilisables** que vous pouvez maintenir  
+- Relier ça avec votre **site web, SEO et contenu** (comme Chez Gerry 1958)
 
-If you want to explore this for your business, head to the [Contact](/contact/) page.
+Pour en parler, rendez-vous sur la page [Contact](/contact/).

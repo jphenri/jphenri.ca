@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "DevOps / IT"
-subtitle: "Modern endpoint, security and automation"
+title: "DevOps / TI"
+subtitle: "Poste de travail moderne, sécurité et automatisation"
 nav_key: devops
-lang: en
-fr_url: /fr/devops/
+lang: fr
+en_url: /en/devops/
 ---
 
-## Focus areas
+## Zones de focus
 
-- Endpoint management (Intune, legacy SCCM, hybrid)
-- Security tooling (endpoint protection, monitoring)
-- Compliance and change management
-- Linux automation (Ansible, lab, scripting)
+- Gestion poste de travail (Intune, SCCM hérité, hybride)
+- Outils de sécurité (protection endpoint, monitoring)
+- Conformité et gestion du changement
+- Automatisation Linux (Ansible, lab, scripts)
 
-This space is a home for notes, experiments and write-ups:
-- Things that worked in production
-- Things that only worked in the lab
-- Lessons learned from real change windows and CAB processes
+Cette section sert de point de dépôt pour :
+- Des notes et expériences terrain
+- Des tests de lab (Omarchy, distros, etc.)
+- Des leçons apprises en contexte réel de CAB et de changement.

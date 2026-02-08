@@ -4,7 +4,7 @@ title: "Business 2.0"
 subtitle: "IA + automatisation au service des petites entreprises"
 nav_key: business
 lang: fr
-en_url: /business/
+en_url: /en/business/
 ---
 
 ## C’est quoi Business 2.0 ?

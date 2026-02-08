@@ -4,7 +4,7 @@ title: "DevOps / TI"
 subtitle: "Poste de travail moderne, sécurité et automatisation"
 nav_key: devops
 lang: fr
-en_url: /devops/
+en_url: /en/devops/
 ---
 
 ## Zones de focus

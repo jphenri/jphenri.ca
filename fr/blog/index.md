@@ -4,7 +4,7 @@ title: "Blog"
 subtitle: "Notes, tests et comptes rendus"
 nav_key: blog
 lang: fr
-en_url: /blog/
+en_url: /en/blog/
 ---
 
 <div class="blog-banner blog-header-animated">
@@ -66,7 +66,7 @@ Chaque article est basé sur <strong>du réel, du terrain</strong> – ce que j'
 ## Version anglaise
 
 → Pour lire le blog anglais, rendez-vous ici :  
-**[Blog (EN)](/blog/)**
+**[Blog (EN)](/en/blog/)**
 
 ---
 

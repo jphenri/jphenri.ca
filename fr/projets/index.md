@@ -4,7 +4,7 @@ title: "Projets"
 subtitle: "Projets TI, web et Business 2.0 développés au fil des années"
 nav_key: projects
 lang: fr
-en_url: /projects/
+en_url: /en/projects/
 ---
 
 <section class="projects-intro">

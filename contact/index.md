@@ -1,21 +1,21 @@
 ---
 layout: page
 title: "Contact"
-subtitle: "Let’s talk about your project"
+subtitle: "Parlons de votre projet"
 nav_key: contact
-lang: en
-fr_url: /fr/contact/
+lang: fr
+en_url: /en/contact/
 ---
 
-You can reach me at:
+Vous pouvez me joindre :
 
-- Email: {{ site.author.email }}
-- GitHub: [{{ site.social.github }}]({{ site.social.github }})
-- LinkedIn: [{{ site.social.linkedin }}]({{ site.social.linkedin }})
+- Courriel : {{ site.author.email }}
+- GitHub : [{{ site.social.github }}]({{ site.social.github }})
+- LinkedIn : [{{ site.social.linkedin }}]({{ site.social.linkedin }})
 
-If you’re a small business owner and want help with AI or automation,
-tell me briefly:
+Si vous êtes propriétaire d’une PME et que vous voulez de l’aide avec l’IA ou l’automatisation,
+expliquez-moi :
 
-1. What you do  
-2. Where tech is currently slowing you down  
-3. What “a win” would look like in the next 3–6 months
+1. Ce que vous faites  
+2. Où la technologie vous ralentit en ce moment  
+3. Ce qui serait un « bon résultat » dans les 3–6 prochains mois

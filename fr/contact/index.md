@@ -4,7 +4,7 @@ title: "Contact"
 subtitle: "Parlons de votre projet"
 nav_key: contact
 lang: fr
-en_url: /contact/
+en_url: /en/contact/
 ---
 
 Vous pouvez me joindre :

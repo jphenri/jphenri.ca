@@ -1,12 +1,29 @@
 en:
   - key: home
     title: "Home"
+    url: "/en/"
+  - key: business
+    title: "Business 2.0"
+    url: "/en/#business"
+  - key: projects
+    title: "Projects"
+    url: "/en/#projects"
+  - key: blog
+    title: "Blog"
+    url: "/en/#blog"
+  - key: contact
+    title: "Contact"
+    url: "/en/#contact"
+
+fr:
+  - key: home
+    title: "Accueil"
     url: "/"
   - key: business
     title: "Business 2.0"
     url: "/#business"
   - key: projects
-    title: "Projects"
+    title: "Projets"
     url: "/#projects"
   - key: blog
     title: "Blog"
@@ -14,20 +31,3 @@ en:
   - key: contact
     title: "Contact"
     url: "/#contact"
-
-fr:
-  - key: home
-    title: "Accueil"
-    url: "/fr/"
-  - key: business
-    title: "Business 2.0"
-    url: "/fr/#business"
-  - key: projects
-    title: "Projets"
-    url: "/fr/#projects"
-  - key: blog
-    title: "Blog"
-    url: "/fr/#blog"
-  - key: contact
-    title: "Contact"
-    url: "/fr/#contact"
