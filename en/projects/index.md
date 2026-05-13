@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Projects"
-subtitle: "Technical, business and web projects I've built over the years"
+subtitle: "Technical, web, digital archive and automation projects I've built over the years"
 nav_key: projects
 lang: en
 fr_url: /projects/
@@ -10,7 +10,7 @@ fr_url: /projects/
 <section class="projects-intro">
   <p>
     This is a <strong>living portfolio</strong> of projects that represent how I think, build and ship:
-    small business transformations, web platforms, static sites and hands-on IT / home lab work.
+    local projects, small business work, web platforms, static sites and hands-on IT / home lab work.
   </p>
 </section>
 
@@ -18,7 +18,7 @@ fr_url: /projects/
 
   <article class="project-card">
     <div class="project-card-header">
-      <span class="project-badge">Business 2.0 · Local SMB</span>
+      <span class="project-badge">Local project · Small business</span>
       <h2 class="project-card-title">
         <a href="https://chezgerry1958.com" target="_blank" rel="noopener noreferrer">
           Chez Gerry 1958
@@ -38,6 +38,32 @@ fr_url: /projects/
     <p class="project-card-linkline">
       <a href="https://chezgerry1958.com" target="_blank" rel="noopener noreferrer">
         Visit chezgerry1958.com →
+      </a>
+    </p>
+  </article>
+
+  <article class="project-card">
+    <div class="project-card-header">
+      <span class="project-badge">Tribute archive · Local heritage</span>
+      <h2 class="project-card-title">
+        <a href="https://www.guysauriol.ca" target="_blank" rel="noopener noreferrer">
+          guysauriol.ca
+        </a>
+      </h2>
+      <p class="project-card-meta">Living archive · Outaouais pro wrestling</p>
+    </div>
+    <p class="project-card-desc">
+      Tribute site designed as a living archive for Guy Sauriol: biography, timeline, gallery,
+      archival references and public contributions to preserve local wrestling history.
+    </p>
+    <ul class="project-card-list">
+      <li>Editorial structure built to grow with new photos, VHS captures and memorabilia.</li>
+      <li>Documentary tone anchored in local heritage without losing visual impact.</li>
+      <li>Simple foundation for expanding the story through community memories.</li>
+    </ul>
+    <p class="project-card-linkline">
+      <a href="https://www.guysauriol.ca" target="_blank" rel="noopener noreferrer">
+        Visit guysauriol.ca →
       </a>
     </p>
   </article>
@@ -136,12 +162,12 @@ fr_url: /projects/
     </div>
     <p class="project-card-desc">
       A bilingual (EN/FR) static site used as a personal lab for content structure, AI-ready
-      pages, technical notes and Business 2.0 documentation.
+      pages, technical notes and working documentation.
     </p>
     <ul class="project-card-list">
       <li>Custom Jekyll theme with bilingual navigation and blog.</li>
       <li>Markdown-first workflow, fully versioned in Git.</li>
-      <li>Designed as a long-term “thinking space” for IT, AI and small business.</li>
+      <li>Designed as a long-term “thinking space” for IT, AI and local projects.</li>
     </ul>
     <p class="project-card-linkline">
       <a href="https://jphenri.ca" target="_blank" rel="noopener noreferrer">

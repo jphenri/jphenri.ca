@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Projets"
-subtitle: "Projets TI, web et Business 2.0 développés au fil des années"
+subtitle: "Projets TI, web, archives numériques et automatisation développés au fil des années"
 nav_key: projects
 lang: fr
 en_url: /en/projects/
@@ -10,7 +10,7 @@ en_url: /en/projects/
 <section class="projects-intro">
   <p>
     Voici une sélection de projets qui représentent le mieux ma façon de travailler :
-    <strong>PME réelles, sites web concrets, lab TI et workflows IA</strong>.
+    <strong>PME réelles, archives locales, sites concrets, lab TI et workflows IA</strong>.
   </p>
 </section>
 
@@ -18,7 +18,7 @@ en_url: /en/projects/
 
   <article class="project-card">
     <div class="project-card-header">
-      <span class="project-badge">Business 2.0 · Commerce local</span>
+      <span class="project-badge">Projet local · Commerce de proximité</span>
       <h2 class="project-card-title">
         <a href="https://chezgerry1958.com" target="_blank" rel="noopener noreferrer">
           Chez Gerry 1958
@@ -38,6 +38,32 @@ en_url: /en/projects/
     <p class="project-card-linkline">
       <a href="https://chezgerry1958.com" target="_blank" rel="noopener noreferrer">
         Visiter chezgerry1958.com →
+      </a>
+    </p>
+  </article>
+
+  <article class="project-card">
+    <div class="project-card-header">
+      <span class="project-badge">Archive hommage · Patrimoine local</span>
+      <h2 class="project-card-title">
+        <a href="https://www.guysauriol.ca" target="_blank" rel="noopener noreferrer">
+          guysauriol.ca
+        </a>
+      </h2>
+      <p class="project-card-meta">Archive vivante · Lutte professionnelle en Outaouais</p>
+    </div>
+    <p class="project-card-desc">
+      Site hommage pensé comme une archive évolutive pour préserver la mémoire de Guy Sauriol :
+      biographie, repères chronologiques, galerie, archives et contributions du public.
+    </p>
+    <ul class="project-card-list">
+      <li>Structure éditoriale conçue pour grandir avec de nouvelles photos et VHS.</li>
+      <li>Ton documentaire et patrimoine local, sans perdre l’impact visuel.</li>
+      <li>Base simple pour enrichir l’histoire régionale avec les souvenirs du public.</li>
+    </ul>
+    <p class="project-card-linkline">
+      <a href="https://www.guysauriol.ca" target="_blank" rel="noopener noreferrer">
+        Visiter guysauriol.ca →
       </a>
     </p>
   </article>
@@ -136,12 +162,12 @@ en_url: /en/projects/
     </div>
     <p class="project-card-desc">
       Site personnel bilingue servant de laboratoire pour la rédaction technique, la structure
-      de contenu, l’optimisation pour les moteurs IA et la documentation Business 2.0.
+      de contenu, l’optimisation pour les moteurs IA et la documentation de travail.
     </p>
     <ul class="project-card-list">
       <li>Thème Jekyll sur mesure avec navigation EN/FR.</li>
       <li>Workflow Markdown versionné dans Git.</li>
-      <li>Espace pour expérimenter et documenter TI, IA et PME.</li>
+      <li>Espace pour expérimenter et documenter TI, IA et projets locaux.</li>
     </ul>
     <p class="project-card-linkline">
       <a href="https://jphenri.ca" target="_blank" rel="noopener noreferrer">
@@ -156,7 +182,7 @@ en_url: /en/projects/
       <h2 class="project-card-title">
         Home Lab & Workflows IA
       </h2>
-      <p class="project-card-meta">Expérimentations appliquées aux PME</p>
+      <p class="project-card-meta">Expérimentations appliquées à des projets réels</p>
     </div>
     <p class="project-card-desc">
       Ensemble de tests TI et d’expérimentations IA qui servent ensuite à bâtir des

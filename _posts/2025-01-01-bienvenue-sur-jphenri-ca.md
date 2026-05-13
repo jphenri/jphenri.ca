@@ -8,7 +8,7 @@ Bienvenue sur **jphenri.ca** 👋
 
 Ce site est mon terrain de jeu public pour trois grandes passions :
 
-- **Business 2.0** – aider les PME à évoluer avec l’IA, l’automatisation et des process simples  
+- **PME & projets locaux** – aider des gens et des entreprises que j’apprécie avec l’IA, l’automatisation et des process simples  
 - **DevOps / TI** – endpoint management, sécurité, conformité, automatisation  
 - **Home Lab** – Linux, Plex, gaming, tests d’outils et d’infra à petite échelle  
 
@@ -19,7 +19,7 @@ Ce site est mon terrain de jeu public pour trois grandes passions :
 À la base, j’avais besoin d’un endroit pour :
 
 1. Documenter ce que j’apprends au travail et dans mon lab  
-2. Tester des idées pour mon projet **Business 2.0**  
+2. Tester des idées autour du web, de l’IA et de l’automatisation  
 3. Avoir un hub propre pour lier mes autres projets (ex. Chez Gerry 1958)
 
 Les réseaux sociaux sont utiles, mais **trop éphémères**.  
@@ -51,4 +51,4 @@ Je vais ajouter au fil du temps :
 - des **templates réutilisables**,  
 - des **exemples concrets** basés sur mon vrai contexte.
 
-Bienvenue dans mon **Business 2.0 logbook** 🚀
+Bienvenue dans mon carnet de bord public.

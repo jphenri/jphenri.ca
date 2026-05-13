@@ -13,7 +13,7 @@ Vous pouvez me joindre :
 - GitHub : [{{ site.social.github }}]({{ site.social.github }})
 - LinkedIn : [{{ site.social.linkedin }}]({{ site.social.linkedin }})
 
-Si vous êtes propriétaire d’une PME et que vous voulez de l’aide avec l’IA ou l’automatisation,
+Si vous avez une PME ou un projet local et que vous pensez qu’on pourrait bien collaborer,
 expliquez-moi :
 
 1. Ce que vous faites  

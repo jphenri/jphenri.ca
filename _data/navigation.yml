@@ -3,7 +3,7 @@ en:
     title: "Home"
     url: "/en/"
   - key: business
-    title: "Business 2.0"
+    title: "Approach"
     url: "/en/#business"
   - key: projects
     title: "Projects"
@@ -20,7 +20,7 @@ fr:
     title: "Accueil"
     url: "/"
   - key: business
-    title: "Business 2.0"
+    title: "Approche"
     url: "/#business"
   - key: projects
     title: "Projets"

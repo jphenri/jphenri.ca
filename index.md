@@ -10,17 +10,17 @@ en_url: /en/
 <section class="hero">
   <div class="hero-inner">
     <p class="hero-kicker">
-      IA · Automatisation · Transformation numérique
+      Web · IA · Automatisation utile
     </p>
 
     <h1 class="hero-title">
-      Construire le <span>Business 2.0</span> — version PME
+      J’aide des <span>PME et projets locaux</span> que j’aime
     </h1>
 
     <p class="hero-subtitle">
       Je suis J.P. Henri — analyste TI et intégrateur IA basé à Gatineau.
-      J’aide les petites entreprises à gagner du temps, structurer leurs opérations
-      et produire plus de marketing grâce à des systèmes simples (pas des usines à gaz).
+      Je fais ça comme hobby : j’aide des PME et des projets locaux que j’apprécie
+      avec des sites web simples, de l’automatisation légère et des outils IA utiles.
     </p>
 
     <div class="hero-actions">
@@ -34,10 +34,10 @@ en_url: /en/
 <section class="cards-grid">
 
   <article class="card">
-    <h2>Business 2.0 pour PME</h2>
+    <h2>Approche terrain</h2>
     <p>
-      Audit rapide, optimisation de processus, automatisation des tâches répétitives,
-      et intégration d’IA (contenu, emails, documentation, opérations).
+      Pas de formule magique : j’observe, je simplifie et j’ajoute seulement
+      la technologie qui aide vraiment.
     </p>
     <a href="#business" class="card-link">Découvrir l’approche →</a>
   </article>
@@ -54,7 +54,7 @@ en_url: /en/
   <article class="card">
     <h2>Projets concrets</h2>
     <p>
-      Projets appliqués sur le terrain : e-commerce, SEO local, sites rapides,
+      Projets appliqués sur le terrain : sites web, archives numériques,
       workflows IA, documentation et automatisations légères.
     </p>
     <a href="#projects" class="card-link">Voir les projets →</a>
@@ -64,10 +64,11 @@ en_url: /en/
 
 <!-- Business -->
 <section id="business" class="section">
-  <h2>Business 2.0</h2>
+  <h2>Mon approche</h2>
   <p class="section-lead">
-    Business 2.0, c’est une approche simple : clarifier, alléger, automatiser, puis mesurer.
-    L’objectif : gagner du temps, réduire les erreurs, et mieux servir vos clients.
+    Je ne cherche pas à vendre une méthode avec un nom.
+    Je fais surtout ça comme hobby, en aidant des PME et des projets locaux que j’aime,
+    avec des solutions simples, réalistes et maintenables.
   </p>
 
   <p>
@@ -79,15 +80,15 @@ en_url: /en/
 
   <ul>
     <li><strong>Comprendre le terrain</strong> : comment le travail se fait aujourd’hui, pas en théorie.</li>
-    <li><strong>Alléger avant d’ajouter</strong> : enlever la friction avant d’ajouter des outils.</li>
+    <li><strong>Garder ça léger</strong> : enlever la friction avant d’ajouter des outils.</li>
     <li><strong>Automatiser ce qui revient souvent</strong> : seulement si ça sauve du temps ou diminue le risque.</li>
     <li><strong>Utiliser l’IA comme assistant</strong> : contenu, documentation, décisions — pas pour “remplacer du monde”.</li>
-    <li><strong>Mesurer l’impact</strong> : temps gagné, erreurs réduites, clients mieux servis.</li>
+    <li><strong>Travailler avec les bonnes personnes</strong> : des projets locaux et des PME avec qui le fit est bon.</li>
   </ul>
 
   <p>
-    Si vous êtes à Gatineau/Ottawa, on peut commencer par un appel rapide :
-    je vous pose 10 questions, et je vous propose un plan clair.
+    Si votre projet me parle, on peut commencer par une courte conversation
+    et voir simplement si je peux être utile.
   </p>
 </section>
 
@@ -95,19 +96,31 @@ en_url: /en/
 <section id="projects" class="section">
   <h2>Projets</h2>
   <p class="section-lead">
-    Quelques projets concrets où j’applique Business 2.0, web, IA et automatisation.
+    Quelques projets concrets en web, IA, automatisation et présence numérique locale.
   </p>
 
   <section class="projects-grid">
 
     <article class="project-card">
       <div class="project-card-header">
-        <span class="project-badge">Business 2.0 · Commerce local</span>
+        <span class="project-badge">Projet local · Commerce de proximité</span>
         <h3 class="project-card-title"><a href="https://chezgerry1958.com">Chez Gerry 1958</a></h3>
         <p class="project-card-meta">Cordonnerie haut de gamme · Gatineau</p>
       </div>
       <p class="project-card-desc">
         SEO, contenu avant/après, optimisation Shopify, automatisations légères et structuration du contenu.
+      </p>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card-header">
+        <span class="project-badge">Archive hommage · Patrimoine local</span>
+        <h3 class="project-card-title"><a href="https://www.guysauriol.ca">guysauriol.ca</a></h3>
+        <p class="project-card-meta">Archive vivante · Lutte professionnelle en Outaouais</p>
+      </div>
+      <p class="project-card-desc">
+        Site hommage conçu comme une archive évolutive pour préserver la mémoire de Guy Sauriol :
+        biographie, parcours, galerie, archives et contributions du public.
       </p>
     </article>
 
@@ -140,7 +153,7 @@ en_url: /en/
         <p class="project-card-meta">Dév. Web · Infra</p>
       </div>
       <p class="project-card-desc">
-        Support et optimisation TI pour PME.
+        Support TI, développement web et accompagnement de proximité pour PME.
       </p>
     </article>
 
@@ -170,12 +183,13 @@ en_url: /en/
 <section id="contact" class="section section-contact">
   <h2>Contact</h2>
   <p class="section-lead">
-    Vous avez une idée, mais vous ne savez pas par où commencer ?
+    Vous avez une PME ou un projet local et vous pensez qu’on pourrait bien collaborer ?
   </p>
 
   <p>
-    On peut démarrer simple : une discussion de 20–30 minutes pour clarifier
-    votre contexte, vos blocages, et où l’IA/automatisation peut réellement aider.
+    Je prends surtout des projets locaux et des PME avec qui le fit est bon.
+    Que ce soit pour un site web, un workflow, de la documentation ou un cas d’usage IA,
+    la première étape reste simple : comprendre votre réalité.
   </p>
 
   <ul class="contact-methods">

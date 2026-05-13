@@ -9,16 +9,16 @@ fr_url: /
 <!-- 🔥 Hero -->
 <section class="hero">
   <div class="hero-inner">
-    <p class="hero-kicker">AI · Automation · Digital Transformation</p>
+    <p class="hero-kicker">Web · AI · Useful automation</p>
 
     <h1 class="hero-title">
-      Building <span>Business 2.0</span> — for real-world small businesses
+      I help <span>small businesses and local projects</span> I genuinely care about
     </h1>
 
     <p class="hero-subtitle">
       I’m J.P. Henri — IT analyst and AI systems consultant based in Gatineau.
-      I help small businesses save time, modernize operations, and produce more marketing
-      using practical AI and automation (without unnecessary complexity).
+      I do this as a hobby: helping local projects and small businesses I like
+      with simple websites, light automation and practical AI tools.
     </p>
 
     <div class="hero-actions">
@@ -32,8 +32,8 @@ fr_url: /
 <section class="cards-grid">
 
   <article class="card">
-    <h2>Business 2.0 for SMEs</h2>
-    <p>Digital diagnostics, workflow simplification, generative AI and process optimization.</p>
+    <h2>Practical approach</h2>
+    <p>No magic formula: I observe, simplify and only add technology when it clearly helps.</p>
     <a href="#business" class="card-link">See the approach →</a>
   </article>
 
@@ -46,20 +46,21 @@ fr_url: /
   <article class="card">
     <h2>Applied Projects</h2>
     <p>
-      Real small-business transformation: fast websites, AI workflows,
-      SEO structure and practical digital systems.
+      Real work on the ground: websites, digital archives, AI workflows,
+      documentation systems and lightweight automation.
     </p>
     <a href="#projects" class="card-link">View projects →</a>
   </article>
 
 </section>
 
-<!-- 🔥 Business 2.0 -->
+<!-- 🔥 Approach -->
 <section id="business" class="section">
-  <h2>Business 2.0</h2>
+  <h2>How I work</h2>
   <p class="section-lead">
-    Business 2.0 is my practical framework for using technology in a realistic,
-    simple and sustainable way for small businesses.
+    I’m not trying to sell a named framework.
+    This is mostly a hobby for me: I help local projects and small businesses I genuinely like,
+    using simple, realistic and maintainable solutions.
   </p>
 
   <p>
@@ -71,15 +72,15 @@ fr_url: /
 
   <ul>
     <li><strong>Understand reality</strong>: how work actually flows today (not how it “should” work).</li>
-    <li><strong>Simplify first</strong>: remove friction before adding new systems.</li>
+    <li><strong>Keep it light</strong>: remove friction before adding new systems.</li>
     <li><strong>Add targeted automation</strong>: only where it saves real time or reduces risk.</li>
     <li><strong>Use AI as an assistant</strong>: for content, documentation and decision support — not to replace people.</li>
-    <li><strong>Measure impact</strong>: time saved, fewer errors, better customer experience.</li>
+    <li><strong>Work with the right people</strong>: local projects and small businesses where the fit is good.</li>
   </ul>
 
   <p>
-    Everything I test eventually gets applied in real projects with real businesses —
-    like the ones below.
+    If a project feels like a good fit, we can start with a simple conversation
+    and see whether I can be useful.
   </p>
 </section>
 
@@ -87,14 +88,14 @@ fr_url: /
 <section id="projects" class="section">
   <h2>Projects</h2>
   <p class="section-lead">
-    Examples of applied IT, AI and Business 2.0 — always tied to real businesses and concrete outcomes.
+    Examples of web, AI, automation and local digital projects tied to real people and concrete outcomes.
   </p>
 
   <section class="projects-grid">
 
     <article class="project-card">
       <div class="project-card-header">
-        <span class="project-badge">Business 2.0 · Local SMB</span>
+        <span class="project-badge">Local project · Small business</span>
         <h3 class="project-card-title">
           <a href="https://chezgerry1958.com" target="_blank">Chez Gerry 1958</a>
         </h3>
@@ -104,9 +105,19 @@ fr_url: /
         Long-term digital transformation for a high-end cobbler: website, clear service catalog,
         local SEO, before/after content, and backend workflows that simplify mail-in repairs.
       </p>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card-header">
+        <span class="project-badge">Tribute archive · Local heritage</span>
+        <h3 class="project-card-title">
+          <a href="https://www.guysauriol.ca" target="_blank">guysauriol.ca</a>
+        </h3>
+        <p class="project-card-meta">Living archive · Outaouais pro wrestling</p>
+      </div>
       <p class="project-card-desc">
-        This is my main sandbox for testing how far Business 2.0 can go inside a single local shop
-        without losing its personality.
+        Tribute site built as a living archive for Guy Sauriol: biography, timeline, gallery,
+        archival material and public contributions that preserve local wrestling history.
       </p>
     </article>
 
@@ -155,7 +166,7 @@ fr_url: /
         custom websites and ongoing support.
       </p>
       <p class="project-card-desc">
-        This experience shaped my Business 2.0 philosophy: long-term relationships, plain language,
+        This experience shaped how I like to help: long-term relationships, plain language,
         and solutions aligned with real constraints.
       </p>
     </article>
@@ -186,10 +197,10 @@ fr_url: /
 <section id="contact" class="section section-contact">
   <h2>Contact</h2>
   <p class="section-lead">
-    If you have an idea or project and you’re not sure where to start, we can begin with a simple conversation.
+    Do you run a small business or local project and think we might be a good fit?
   </p>
   <p>
-    I focus on small businesses, local projects and teams who want to modernize without losing their identity.
+    I mostly take on local projects and small businesses I genuinely enjoy helping.
     Whether it’s a website, workflow, documentation or an AI use case, the first step is understanding your reality.
   </p>
   <ul class="contact-methods">

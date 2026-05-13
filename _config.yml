@@ -1,5 +1,5 @@
 title: "J.P. Henri"
-description: "AI, DevOps & Business 2.0 – by J.P. Henri"
+description: "Web, AI and automation for local projects and small businesses – by J.P. Henri"
 url: "https://jphenri.ca"
 baseurl: "" # important for custom domain
 
@@ -47,7 +47,7 @@ defaults:
 nav:
   en:
     home: "Home"
-    business: "Business 2.0"
+    business: "Approach"
     devops: "DevOps / IT"
     homelab: "Home Lab"
     projects: "Projects"
@@ -55,7 +55,7 @@ nav:
     contact: "Contact"
   fr:
     home: "Accueil"
-    business: "Business 2.0"
+    business: "Approche"
     devops: "DevOps / TI"
     homelab: "Home Lab"
     projects: "Projets"

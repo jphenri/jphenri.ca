@@ -19,7 +19,7 @@ Here I share notes, experiments and lessons learned around:
   <li><strong>Applied AI</strong> (for small businesses, automation, practical tools)</li>
   <li><strong>DevOps / IT</strong> (Intune, Linux, security)</li>
   <li><strong>Home Lab</strong> (lab tests, Plex, gaming, distros)</li>
-  <li><strong>Business 2.0</strong> (strategy, digital transformation)</li>
+  <li><strong>Small businesses & local projects</strong> (web presence, useful tools, real cases)</li>
 </ul>
 
 <p>
@@ -63,4 +63,3 @@ Everything here is based on <strong>real-world work and lab experiments</strong>
 </section>
 
 ---
-

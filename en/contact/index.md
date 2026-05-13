@@ -13,7 +13,7 @@ You can reach me at:
 - GitHub: [{{ site.social.github }}]({{ site.social.github }})
 - LinkedIn: [{{ site.social.linkedin }}]({{ site.social.linkedin }})
 
-If you’re a small business owner and want help with AI or automation,
+If you run a small business or local project and think we might be a good fit,
 tell me briefly:
 
 1. What you do  
