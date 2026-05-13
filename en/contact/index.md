@@ -9,7 +9,7 @@ fr_url: /contact/
 
 You can reach me at:
 
-- Email: {{ site.author.email }}
+- Email: [{{ site.author.email }}](mailto:{{ site.author.email }})
 - GitHub: [{{ site.social.github }}]({{ site.social.github }})
 - LinkedIn: [{{ site.social.linkedin }}]({{ site.social.linkedin }})
 
@@ -19,3 +19,5 @@ tell me briefly:
 1. What you do  
 2. Where tech is currently slowing you down  
 3. What “a win” would look like in the next 3–6 months
+
+{% include contact-form.html lang="en" %}

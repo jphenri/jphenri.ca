@@ -1,0 +1,38 @@
+{% assign form_url = "https://docs.google.com/forms/d/e/1FAIpQLSc297O_R8prprDYvXkPerrik33rBWj49AnkqjAxgAM-6WP-4g/viewform" %}
+{% if include.lang == "fr" %}
+  {% assign form_eyebrow = "Formulaire Google" %}
+  {% assign form_title = "Décrivez-moi votre projet" %}
+  {% assign form_body = "Répondez aux questions ci-dessous et je reviendrai vers vous avec une première piste concrète." %}
+  {% assign form_cta = "Ouvrir le formulaire dans un nouvel onglet" %}
+  {% assign form_note = "Si l’intégration ne s’affiche pas bien sur votre appareil, utilisez le bouton ci-dessus." %}
+  {% assign form_loading = "Chargement..." %}
+{% else %}
+  {% assign form_eyebrow = "Google Form" %}
+  {% assign form_title = "Tell me about your project" %}
+  {% assign form_body = "Answer the questions below and I will get back to you with an initial direction." %}
+  {% assign form_cta = "Open the form in a new tab" %}
+  {% assign form_note = "If the embed does not display well on your device, use the button above." %}
+  {% assign form_loading = "Loading..." %}
+{% endif %}
+
+<div class="contact-form-card">
+  <div class="contact-form-copy">
+    <p class="contact-form-eyebrow">{{ form_eyebrow }}</p>
+    <h3>{{ form_title }}</h3>
+    <p>{{ form_body }}</p>
+    <div class="contact-form-actions">
+      <a class="btn btn-primary" href="{{ form_url }}" target="_blank" rel="noopener">{{ form_cta }}</a>
+    </div>
+    <p class="contact-form-note">{{ form_note }}</p>
+  </div>
+
+  <iframe
+    class="contact-form-frame"
+    src="{{ form_url }}?embedded=true"
+    loading="lazy"
+    title="{{ form_title }}"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+  >{{ form_loading }}</iframe>
+</div>

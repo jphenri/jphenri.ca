@@ -192,10 +192,13 @@ fr_url: /
     I focus on small businesses, local projects and teams who want to modernize without losing their identity.
     Whether it’s a website, workflow, documentation or an AI use case, the first step is understanding your reality.
   </p>
-  <ul>
-    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/jphenriIT/">LinkedIn</a></li>
+  <ul class="contact-methods">
+    <li>Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+    <li>LinkedIn: <a href="{{ site.social.linkedin }}">LinkedIn</a></li>
   </ul>
   <p>
     You don’t need a full brief. A few lines about who you are, what you do and what’s slowing you down is enough to start.
   </p>
+
+  {% include contact-form.html lang="en" %}
 </section>

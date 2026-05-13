@@ -178,11 +178,14 @@ en_url: /en/
     votre contexte, vos blocages, et où l’IA/automatisation peut réellement aider.
   </p>
 
-  <ul>
-    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/jphenriIT/">LinkedIn</a></li>
+  <ul class="contact-methods">
+    <li>Courriel : <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+    <li>LinkedIn : <a href="{{ site.social.linkedin }}">LinkedIn</a></li>
   </ul>
 
   <p>
     Envoyez-moi 3 lignes : qui vous êtes, ce que vous faites, et ce qui vous ralentit en ce moment.
   </p>
+
+  {% include contact-form.html lang="fr" %}
 </section>
