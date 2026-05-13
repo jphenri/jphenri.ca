@@ -1,17 +1,19 @@
 {% assign form_url = "https://docs.google.com/forms/d/e/1FAIpQLSc297O_R8prprDYvXkPerrik33rBWj49AnkqjAxgAM-6WP-4g/viewform" %}
 {% if include.lang == "fr" %}
-  {% assign form_eyebrow = "Formulaire Google" %}
-  {% assign form_title = "Décrivez-moi votre projet" %}
-  {% assign form_body = "Répondez aux questions ci-dessous et je reviendrai vers vous avec une première piste concrète." %}
-  {% assign form_cta = "Ouvrir le formulaire dans un nouvel onglet" %}
-  {% assign form_note = "Si l’intégration ne s’affiche pas bien sur votre appareil, utilisez le bouton ci-dessus." %}
+  {% assign form_eyebrow = "Premier contact" %}
+  {% assign form_title = "Parlez-moi de votre projet" %}
+  {% assign form_body = "Le plus simple est de m’envoyer votre contexte via le formulaire. Je pourrai ensuite vous répondre avec quelque chose de plus utile qu’un message générique." %}
+  {% assign form_cta = "Ouvrir le formulaire" %}
+  {% assign form_toggle = "Afficher le formulaire ici" %}
+  {% assign form_note = "Le formulaire Google s’ouvre mieux dans un nouvel onglet. Si vous préférez, vous pouvez aussi l’afficher directement sur cette page." %}
   {% assign form_loading = "Chargement..." %}
 {% else %}
-  {% assign form_eyebrow = "Google Form" %}
+  {% assign form_eyebrow = "First contact" %}
   {% assign form_title = "Tell me about your project" %}
-  {% assign form_body = "Answer the questions below and I will get back to you with an initial direction." %}
-  {% assign form_cta = "Open the form in a new tab" %}
-  {% assign form_note = "If the embed does not display well on your device, use the button above." %}
+  {% assign form_body = "The easiest way to start is to send me your context through the form. That lets me reply with something more useful than a generic message." %}
+  {% assign form_cta = "Open the form" %}
+  {% assign form_toggle = "Show the form here" %}
+  {% assign form_note = "Google Forms usually works better in a new tab. If you prefer, you can still expand it directly on this page." %}
   {% assign form_loading = "Loading..." %}
 {% endif %}
 
@@ -26,13 +28,18 @@
     <p class="contact-form-note">{{ form_note }}</p>
   </div>
 
-  <iframe
-    class="contact-form-frame"
-    src="{{ form_url }}?embedded=true"
-    loading="lazy"
-    title="{{ form_title }}"
-    frameborder="0"
-    marginheight="0"
-    marginwidth="0"
-  >{{ form_loading }}</iframe>
+  <details class="contact-form-inline">
+    <summary>{{ form_toggle }}</summary>
+    <div class="contact-form-frame-wrap">
+      <iframe
+        class="contact-form-frame"
+        src="{{ form_url }}?embedded=true"
+        loading="lazy"
+        title="{{ form_title }}"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >{{ form_loading }}</iframe>
+    </div>
+  </details>
 </div>

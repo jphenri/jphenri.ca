@@ -385,8 +385,10 @@ a {
 .contact-form-card {
   border-radius: var(--radius-lg);
   border: 1px solid var(--border-subtle);
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(2, 6, 23, 0.98));
-  padding: 1rem;
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.08), transparent 32%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(2, 6, 23, 0.98));
+  padding: 1.15rem;
   box-shadow: 0 20px 45px rgba(15, 23, 42, 0.45);
 }
 
@@ -401,6 +403,7 @@ a {
 .contact-form-copy h3 {
   margin-top: 0;
   margin-bottom: 0.4rem;
+  font-size: 1.2rem;
 }
 
 .contact-form-actions {
@@ -411,9 +414,55 @@ a {
 }
 
 .contact-form-note {
-  margin: 0 0 1rem;
+  margin: 0;
   font-size: 0.82rem;
   color: var(--text-muted);
+}
+
+.contact-form-inline {
+  margin-top: 1rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.16);
+  padding-top: 0.9rem;
+}
+
+.contact-form-inline summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.contact-form-inline summary::-webkit-details-marker {
+  display: none;
+}
+
+.contact-form-inline summary::before {
+  content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  color: var(--accent-strong);
+  flex: 0 0 auto;
+}
+
+.contact-form-inline[open] summary::before {
+  content: "-";
+}
+
+.contact-form-frame-wrap {
+  margin-top: 0.9rem;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .contact-form-frame {
@@ -421,7 +470,6 @@ a {
   width: 100%;
   height: 1200px;
   border: 0;
-  border-radius: 14px;
   background: #fff;
 }
 
