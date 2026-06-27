@@ -1,20 +1,28 @@
-{% assign form_url = "https://docs.google.com/forms/d/e/1FAIpQLSc297O_R8prprDYvXkPerrik33rBWj49AnkqjAxgAM-6WP-4g/viewform" %}
+{% assign form_action = "https://api.web3forms.com/submit" %}
 {% if include.lang == "fr" %}
   {% assign form_eyebrow = "Premier contact" %}
   {% assign form_title = "Parlez-moi de votre projet" %}
-  {% assign form_body = "Le plus simple est de m’envoyer votre contexte via le formulaire. Je pourrai ensuite vous répondre avec quelque chose de plus utile qu’un message générique." %}
-  {% assign form_cta = "Ouvrir le formulaire" %}
-  {% assign form_toggle = "Afficher le formulaire ici" %}
-  {% assign form_note = "Le formulaire Google s’ouvre mieux dans un nouvel onglet. Si vous préférez, vous pouvez aussi l’afficher directement sur cette page." %}
-  {% assign form_loading = "Chargement..." %}
+  {% assign form_body = "Le plus simple est de m’envoyer votre contexte ici. Je pourrai ensuite vous répondre avec quelque chose de plus utile qu’un message générique." %}
+  {% assign form_name_label = "Nom" %}
+  {% assign form_name_placeholder = "Votre nom" %}
+  {% assign form_email_label = "Courriel" %}
+  {% assign form_email_placeholder = "vous@exemple.com" %}
+  {% assign form_message_label = "Message" %}
+  {% assign form_message_placeholder = "Décrivez brièvement votre projet, votre entreprise ou ce qui vous bloque en ce moment." %}
+  {% assign form_submit = "Envoyer" %}
+  {% assign form_note = "Je lis les messages moi-même. Quelques lignes suffisent pour démarrer." %}
 {% else %}
   {% assign form_eyebrow = "First contact" %}
   {% assign form_title = "Tell me about your project" %}
-  {% assign form_body = "The easiest way to start is to send me your context through the form. That lets me reply with something more useful than a generic message." %}
-  {% assign form_cta = "Open the form" %}
-  {% assign form_toggle = "Show the form here" %}
-  {% assign form_note = "Google Forms usually works better in a new tab. If you prefer, you can still expand it directly on this page." %}
-  {% assign form_loading = "Loading..." %}
+  {% assign form_body = "The easiest way to start is to send me your context here. That lets me reply with something more useful than a generic message." %}
+  {% assign form_name_label = "Name" %}
+  {% assign form_name_placeholder = "Your name" %}
+  {% assign form_email_label = "Email" %}
+  {% assign form_email_placeholder = "you@example.com" %}
+  {% assign form_message_label = "Message" %}
+  {% assign form_message_placeholder = "Briefly describe your project, your business, or what is slowing you down right now." %}
+  {% assign form_submit = "Submit" %}
+  {% assign form_note = "I read these messages myself. A few clear lines are enough to get started." %}
 {% endif %}
 
 <div class="contact-form-card">
@@ -22,24 +30,51 @@
     <p class="contact-form-eyebrow">{{ form_eyebrow }}</p>
     <h3>{{ form_title }}</h3>
     <p>{{ form_body }}</p>
-    <div class="contact-form-actions">
-      <a class="btn btn-primary" href="{{ form_url }}" target="_blank" rel="noopener">{{ form_cta }}</a>
-    </div>
-    <p class="contact-form-note">{{ form_note }}</p>
   </div>
 
-  <details class="contact-form-inline">
-    <summary>{{ form_toggle }}</summary>
-    <div class="contact-form-frame-wrap">
-      <iframe
-        class="contact-form-frame"
-        src="{{ form_url }}?embedded=true"
-        loading="lazy"
-        title="{{ form_title }}"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >{{ form_loading }}</iframe>
+  <form class="contact-form-form" action="{{ form_action }}" method="POST">
+    <input type="hidden" name="access_key" value="61300d7a-aa12-458e-b3cb-8d8d12204e86">
+
+    <div class="contact-form-grid">
+      <label class="contact-form-field">
+        <span>{{ form_name_label }}</span>
+        <input
+          class="contact-form-input"
+          type="text"
+          name="name"
+          placeholder="{{ form_name_placeholder }}"
+          autocomplete="name"
+          required
+        >
+      </label>
+
+      <label class="contact-form-field">
+        <span>{{ form_email_label }}</span>
+        <input
+          class="contact-form-input"
+          type="email"
+          name="email"
+          placeholder="{{ form_email_placeholder }}"
+          autocomplete="email"
+          required
+        >
+      </label>
     </div>
-  </details>
+
+    <label class="contact-form-field">
+      <span>{{ form_message_label }}</span>
+      <textarea
+        class="contact-form-input contact-form-textarea"
+        name="message"
+        placeholder="{{ form_message_placeholder }}"
+        required
+      ></textarea>
+    </label>
+
+    <div class="contact-form-actions">
+      <button class="btn btn-primary" type="submit">{{ form_submit }}</button>
+    </div>
+
+    <p class="contact-form-note">{{ form_note }}</p>
+  </form>
 </div>
